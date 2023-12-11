@@ -1,0 +1,94 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar styles */
+  .fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 15px;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Centered input field */
+  .search {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .search input {
+    width: 70%; /* Adjust width as needed */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 200px;
+    background-color: #444;
+    color: white;
+    height: 100vh; /* Full height */
+    position: fixed; /* Fixed Sidebar (remains visible while scrolling) */
+    top: 0;
+    left: 0;
+    padding-top: 60px; /* Space for the navbar */
+    overflow-y: auto; /* Enable vertical scroll if content exceeds height */
+  }
+  
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-links li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-links li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  
+  /* Content area styles */
+  .content {
+    margin-left: 220px; /* Account for the width of the sidebar */
+    padding: 20px;
+    padding-top: 80px; /* Space for the fixed navbar */
+
+
+    margin: 0 auto; /* Center horizontally */
+  text-align: center; /* Center inline content */
+  border: 2px solid #ccc; /* Just for visualization */
+  
+    
+  }
